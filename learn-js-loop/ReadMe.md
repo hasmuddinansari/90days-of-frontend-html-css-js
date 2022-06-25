@@ -1,6 +1,2 @@
 i learned loop today
-
-
-there are 3 kind o loops
-for loop
-while
+and also learn about array and obj
