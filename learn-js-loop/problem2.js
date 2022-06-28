@@ -48,13 +48,28 @@
 
 // 5th problem------ the sum of array
 
-let sum = 0;
-let a = [5, 6, 7, 8, 9, 11];
-let b = [];
-for (i = 0; i < a.length; i++) {
-  sum += a[i];
-//   console.log("sum of array", sum);
-  b.push(sum)
-}
+// let sum = 0;
+// let a = [5, 6, 7, 8, 9, 11];
+// let b = [];
+// for (i = 0; i < a.length; i++) {
+//   sum += a[i];
+// //   console.log("sum of array", sum);
+//   b.push(sum)
+// }
 
-console.log(b)
+// console.log(b)
+
+// 6th problem------------------------odd even number
+let a = [10, 12, 11, 23, 32, 112, 21, 11];
+let even = [];
+let odd = [];
+for (i = 0; i < a.length; i++) {
+  if (a[i] % 2 === 0) {
+
+    even.push(a[i]);
+  } else {
+
+    odd.push(a[i]);
+  }
+}
+console.log(even,odd);
