@@ -60,16 +60,40 @@
 // console.log(b)
 
 // 6th problem------------------------odd even number
-let a = [10, 12, 11, 23, 32, 112, 21, 11];
-let even = [];
-let odd = [];
-for (i = 0; i < a.length; i++) {
-  if (a[i] % 2 === 0) {
+// let a = [10, 12, 11, 23, 32, 112, 21, 11];
+// let even = [];
+// let odd = [];
+// for (i = 0; i < a.length; i++) {
+//   if (a[i] % 2 === 0) {
 
-    even.push(a[i]);
-  } else {
+//     even.push(a[i]);
+//   } else {
 
-    odd.push(a[i]);
-  }
+//     odd.push(a[i]);
+//   }
+// }
+// console.log(even,odd);
+
+// while loops.....
+
+// let a = [1, 2, 3];
+// let i = 0;
+// while (i < a.length) {
+//   console.log(a[i]);
+//   i++;
+// }
+
+// for(let i=0; i<100; i++){
+
+//     if(i===7)
+//     console.log('no print')
+
+// }
+
+function kdBoss() {
+  let a = 8;
+  let b = 3;
+  let c = a + b;
+  console.log(c);
 }
-console.log(even,odd);
+kdBoss();
