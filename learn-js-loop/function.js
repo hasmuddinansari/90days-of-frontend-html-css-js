@@ -1,12 +1,13 @@
+//odd even --------------with function------
 // function myFunction(add) {
 //   if (add % 2 === 0) {
-//     return 'even'
+//     return "even";
 //   } else {
-//     return 'oddd'
+//     return "oddd";
 //   }
 // }
 // let result = myFunction(112);
-// console.log(result)
+// console.log(result);
 
 // squar Number
 
@@ -28,4 +29,9 @@
 
 // console.log(area(2, 5));
 
+//(a+b)**2
 
+function formula(a, b) {
+  return "a=2,b=3,value of (a+b)**2 = " + (a + b) ** 2;
+}
+console.log(formula(2, 3));
