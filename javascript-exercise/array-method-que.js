@@ -164,7 +164,7 @@ let a = [2, 1, 44, 5, 3, 22, 7];
 let b = a.sort(function (a, b) {
   return a - b;
 });
-// console.log(b);
+// console.log(b);array
 
 
 
