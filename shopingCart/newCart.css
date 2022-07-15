@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+.menu {
+  position: fixed;
+  /* top: 20px; */
+  width: 100%;
+  background: rgb(231, 242, 245);
+}
+.menu-list {
+  display: flex;
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  height: 39px;
+}
+li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* .search {
+  position: absolute;
+  right: 30px;
+  top: 4px;
+}
+.search-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  background: white;
+}
+.search-btn:hover {
+  color: red;
+  cursor: pointer;
+}
+.search-here {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+} */
+
+.cart-table {
+  margin-top: 100px;
+  width: 100%;
+  padding: 50px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+#img1 {
+  width: auto;
+  height: 150px;
+}
+
+/* add prduct details */
+
+.product-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  flex: 33.33%;
+  max-width: 1300px;
+  margin: 17px 0 2px;
+  border: 2px solid rgb(161, 235, 161);
+}
+img {
+  max-width: 100%;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+.fetures {
+  margin-top: 30px;
+  font-size: 30px;
+}
+h4 {
+  text-align: center;
+  font-size: 30px;
+}
+button:hover {
+  cursor: pointer;
+  border: 2px solid rgb(0, 77, 90);
+  transition: 0.2s;
+  /* background: rgb(167, 220, 236); */
+}
+
+.box {
+  justify-content: space-around;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(231, 242, 245);
+}
+
+.d-flex {
+  display: flex;
+}
+.add-cart-btn {
+  margin-left: 165px;
+  background: rgb(164, 164, 218);
+  color: black;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#remove {
+  height: 40px;
+  width: 70px;
+}
+
+/* cart */
+
+#img3 {
+  /* display: flex; */
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  /* border:2px solid #333; */
+  box-shadow: 10px 4px 30px black;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* cart */
+
+#cart-length{
+  position: absolute  ;
+  margin: 0px -26px;
+  top: -5px;
+  color: yellow;
+  font-weight: bold;
+}
+

@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: inline;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.cart {
+  margin-left: 850px;
+  font-size: 25px;
+  width: 30px;
+  /* border: 2px solid whitesmoke; */
+}
+.search-inp {
+  display: flex;
+}
+
+.add-cart-btn {
+  width: 100px;
+  background: transparent;
+  height: 50px;
+  border: 1px solid gray;
+}
+
+/* ------  ---------------------product line--------------- */
+
+.product-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  flex: 33.33%;
+  max-width: 1300px;
+  margin: 17px 0 2px;
+  border: 2px solid rgb(161, 235, 161);
+}
+img {
+  max-width: 100%;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+.fetures {
+  margin-top: 30px;
+  font-size: 30px;
+}
+h4 {
+  text-align: center;
+  font-size: 30px;
+}
+button {
+  margin-left: 300px;
+  background: rgb(164, 164, 218);
+  color: black;
+}
+button:hover {
+  cursor: pointer;
+  border: 2px solid rgb(0, 77, 90);
+  transition: 0.2s;
+  /* background: rgb(167, 220, 236); */
+}
+button{
+  box-shadow: 10px 5px 10px black;
+}
+
+
+.box{
+  justify-content: space-around;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgb(231, 242, 245);
+}
+
+.d-flex {
+  display: flex;
+}

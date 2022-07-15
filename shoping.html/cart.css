@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+img {
+  height: 300px;
+  width:auto;
+}
+
+.cart-table {
+    margin-top:100px;
+    width:100%;
+    padding:50px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+/* .inc-dec {
+  display: flex;
+  position: absolute;
+  left: 300px;
+  top: 130px;
+} */
+.remove-btn {
+    width:60px;
+    height:30px;
+    background-color: transparent;
+    box-shadow: none;   
+}
